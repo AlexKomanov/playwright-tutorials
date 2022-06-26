@@ -34,6 +34,37 @@
             list-style: none;
             padding: 0;
             margin: 0;
+
+            .title {
+                font-size: 10px;
+                font-weight: bold;
+                color: #999;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #e4f0e9;
+                }
+
+                .icon {
+                    font-size: 18px;
+                    color: darkcyan;
+                }
+
+                span {
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #888;
+                    margin-left: 10px;
+                }
+            }
         }
     }
 }
