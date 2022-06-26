@@ -1,0 +1,22 @@
+.navbar {
+    height: 50px;
+    border-bottom: 0.5px solid rgb(211, 225, 211);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+
+    .wrapper { 
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .items { 
+            display: flex;
+        }
+    }
+    
+
+}
