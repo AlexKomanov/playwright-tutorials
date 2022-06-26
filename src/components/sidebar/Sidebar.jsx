@@ -1,21 +1,35 @@
-import React from 'react'
-import "./sidebar.scss"
+import "./sidebar.scss";
 
 const Sidebar = () => {
-  return (
-    <div className='sidebar'>
-        <div className="top">
-            <span className="logo">Playwright Tutorials</span>
-        </div>
-        <div className="center">
+    return (
+        <div className='sidebar'>
+            <div className="top">
+                <img className='pl-logo' src="https://playwright.dev/img/playwright-logo.svg" alt="playwright-logo"/>
+                <span className="logo">Learn Playwright</span>
+            </div>
+            <hr />
+            <div className="center">
+                <ul>
+                    <li>
+                        <span>Dashboard</span>
+                    </li>
+                    <li>
+                        <span>Dashboard</span>
+                    </li>
+                    <li>
+                        <span>Dashboard</span>
+                    </li>
+                    <li>
+                        <span>Dashboard</span>
+                    </li>
+                </ul>
+            </div>
+            <div className="bottom">
+                color options
+            </div>
 
         </div>
-        <div className="bottom">
-            color options
-        </div>
-
-    </div>
-  )
+    )
 }
 
 export default Sidebar
