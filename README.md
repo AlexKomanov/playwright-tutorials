@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Learn Playwright Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains the url [Learn Playwright](https://playwright-tutorials.web.app/).
 
-## Available Scripts
+## Available Sections
 
 In the project directory, you can run:
 
